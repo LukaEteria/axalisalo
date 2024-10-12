@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "url": "https://globallychem.com/wp-content/uploads/2023/12/banner-2.png",
+    "description": "This is photo 1"
+  },
+  {
+    "id": 2,
+    "url": "https://biotol.com.tr/uploads/images/biotolhandgel.jpg",
+    "description": "This is photo 2"
+  },
+  {
+    "id": 3,
+    "url": "https://biotol.com.tr/uploads/images/biotolbuldeterjani.jpg",
+    "description": "This is photo 3"
+  },
+  {
+    "id": 4,
+    "url": "https://biotol.com.tr/uploads/images/biotolyumusatici.jpg",
+    "description": "This is photo 4"
+  }
+  
+]
