@@ -85,3 +85,21 @@
     align-items: center;
     gap: 5px;
 }
+
+
+@media screen and (max-width: 650px) {
+   
+    .card-home p {
+      color: #777777;
+      font-size: 15.4px;
+      width:411.828px;
+      text-align: center;
+  }
+@media screen and (max-width: 400px) {
+   
+    .card-home p {
+      color: #777777;
+      font-size: 15.4px;
+      width:311.828px;
+      text-align: center;
+  }
