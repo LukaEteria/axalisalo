@@ -7,6 +7,7 @@ import Team from "./Resurs/Team";
 import Blog from "./Resurs/Blog";
 import "./App.css";
 import Footer from "./Resurs/Footer";
+import HamburgerMenu from "./Resurs/Assests/HamburgerMenu";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           </div>
           <div className="contact-info-right"></div>
         </div>
+         <HamburgerMenu />
         <div className="header navigation logo">
           <div className="image-container">
             <a href="/">

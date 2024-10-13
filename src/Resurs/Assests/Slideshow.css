@@ -194,7 +194,7 @@
   right: 49.5%
 }
 .contact-info-left {
-  width: 60%;
+  width: 40%;
 }
 }
 
@@ -263,7 +263,7 @@
 
 @media screen and (max-width: 800px) {
   .each-slide {
-    height: 305px;
+    height: 355px;
   }
   .contact-info-left::before {
     right: 28%;
@@ -272,7 +272,7 @@
     right: 27.5%
   }
   .contact-info-left {
-    width: 70%;
+    width: 50%;
   }
     .each-slide {
       height: 235px;
@@ -297,13 +297,27 @@
     width: 311.828px;
     text-align: center;
 }
+@media screen and (max-width: 597px) {
+  .contact-info-left{
+    width: 67%;
+  }
+  .contact-info-left::before {
+    right: 20%;
+  }
+  .contact-info-left::after {
+    right: 19.5%
+  }
+}
 
 }
 @media screen and (max-width: 550px) {
   .each-slide {
-      height: 150px;
+    height: 194px;
   }
-  
+  .navigation {
+    margin: 0;
+    height: auto;
+  }
  
 
 }
@@ -314,10 +328,10 @@
 }
 @media screen and (max-width: 420px) {
   .contact-info-left::before {
-    right: 10%;
+    right: 18%;
   }
   .contact-info-left::after {
-    right: 9.5%
+    right: 17.5%
   }
   .contact-info-left {
     width: 64%;
