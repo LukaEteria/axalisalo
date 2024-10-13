@@ -95,6 +95,7 @@
       width:411.828px;
       text-align: center;
   }
+}
 @media screen and (max-width: 400px) {
    
     .card-home p {
@@ -103,3 +104,4 @@
       width:311.828px;
       text-align: center;
   }
+}
