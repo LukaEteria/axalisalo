@@ -22,22 +22,22 @@ const products = [
     },
     {
         id: 5,
-        imageUrl: '/assets/Items//Salo(2).png', // Ensure this path is correct
+        imageUrl: '/assets/Items/Salo(2).png', // Ensure this path is correct
         title: 'Toilet block ocean',
     },
     {
         id: 6,
-        imageUrl: '/assets/Items//Salo(3).png', // Ensure this path is correct
+        imageUrl: './assets/Items/Salo(3).png', // Ensure this path is correct
         title: 'Toilet block lavender',
     },
     {
         id: 7,
-        imageUrl: '/assets/Items//Salo(4).png', // Ensure this path is correct
+        imageUrl: '/assets/Items/Salo(4).png', // Ensure this path is correct
         title: 'Biotol',
     },
     {
         id: 8,
-        imageUrl: '/assets/Items//Salo(5).png', // Ensure this path is correct
+        imageUrl: '/assets/Items/Salo(5).png', // Ensure this path is correct
         title: 'Biotol',
     },
     {
