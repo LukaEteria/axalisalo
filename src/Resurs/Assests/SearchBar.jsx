@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import products from '"../../assets/products"'; // Make sure the path is correct
+import products from '../../assets/products;' // Make sure the path is correct
 import './SearchBar.css';
 
 export default function SearchBar() {
