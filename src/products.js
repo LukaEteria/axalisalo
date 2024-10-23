@@ -17,47 +17,47 @@ const products = [
     },
     {
         id: 4,
-        imageUrl: '/src/assets/Items/Salo(1).png', // Ensure this path is correct
+        imageUrl: '/assets/Items/Salo(1).png', // Ensure this path is correct
         title: 'Biotol Lemoon',
     },
     {
         id: 5,
-        imageUrl: '/src/assets/Items/Salo(2).png', // Ensure this path is correct
+        imageUrl: '/assets/Items//Salo(2).png', // Ensure this path is correct
         title: 'Toilet block ocean',
     },
     {
         id: 6,
-        imageUrl: '/src/assets/Items/Salo(3).png', // Ensure this path is correct
+        imageUrl: '/assets/Items//Salo(3).png', // Ensure this path is correct
         title: 'Toilet block lavender',
     },
     {
         id: 7,
-        imageUrl: '/src/assets/Items/Salo(4).png', // Ensure this path is correct
+        imageUrl: '/assets/Items//Salo(4).png', // Ensure this path is correct
         title: 'Biotol',
     },
     {
         id: 8,
-        imageUrl: '/src/assets/Items/Salo(5).png', // Ensure this path is correct
+        imageUrl: '/assets/Items//Salo(5).png', // Ensure this path is correct
         title: 'Biotol',
     },
     {
         id: 9,
-        imageUrl: '/src/assets/Items/Salo(6).png', // Ensure this path is correct
+        imageUrl: '/assets/Items/Salo(6).png', // Ensure this path is correct
         title: 'Biotol',
     },
     {
         id: 10,
-        imageUrl: '/src/assets/Items/Salo(7).png', // Ensure this path is correct
+        imageUrl: '/assets/Items/Salo(7).png', // Ensure this path is correct
         title: 'Biotol',
     },
     {
         id: 11,
-        imageUrl: '/src/assets/Items/Salo(8).png', // Ensure this path is correct
+        imageUrl: '/assets/Items/Salo(8).png', // Ensure this path is correct
         title: 'Biotol',
     },
     {
         id: 12,
-        imageUrl: '/src/assets/Items/Salo(9).png', // Ensure this path is correct
+        imageUrl: '/assets/Items/Salo(9).png', // Ensure this path is correct
         title: 'Biotol',
     },
     // Add more products as needed
