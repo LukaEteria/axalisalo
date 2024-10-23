@@ -17,12 +17,12 @@ const products = [
     },
     {
         id: 4,
-        imageUrl: '/assets/Items/Salo(1).png', // Ensure this path is correct
+        imageUrl: './assets/Items/Salo(1).png', // Ensure this path is correct
         title: 'Biotol Lemoon',
     },
     {
         id: 5,
-        imageUrl: '/assets/Items/Salo(2).png', // Ensure this path is correct
+        imageUrl: './assets/Items/Salo(2).png', // Ensure this path is correct
         title: 'Toilet block ocean',
     },
     {
@@ -32,32 +32,32 @@ const products = [
     },
     {
         id: 7,
-        imageUrl: '/assets/Items/Salo(4).png', // Ensure this path is correct
+        imageUrl: './assets/Items/Salo(4).png', // Ensure this path is correct
         title: 'Biotol',
     },
     {
         id: 8,
-        imageUrl: '/assets/Items/Salo(5).png', // Ensure this path is correct
+        imageUrl: './assets/Items/Salo(5).png', // Ensure this path is correct
         title: 'Biotol',
     },
     {
         id: 9,
-        imageUrl: '/assets/Items/Salo(6).png', // Ensure this path is correct
+        imageUrl: './assets/Items/Salo(6).png', // Ensure this path is correct
         title: 'Biotol',
     },
     {
         id: 10,
-        imageUrl: '/assets/Items/Salo(7).png', // Ensure this path is correct
+        imageUrl: './assets/Items/Salo(7).png', // Ensure this path is correct
         title: 'Biotol',
     },
     {
         id: 11,
-        imageUrl: '/assets/Items/Salo(8).png', // Ensure this path is correct
+        imageUrl: './assets/Items/Salo(8).png', // Ensure this path is correct
         title: 'Biotol',
     },
     {
         id: 12,
-        imageUrl: '/assets/Items/Salo(9).png', // Ensure this path is correct
+        imageUrl: './assets/Items/Salo(9).png', // Ensure this path is correct
         title: 'Biotol',
     },
     // Add more products as needed
