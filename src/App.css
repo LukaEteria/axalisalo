@@ -15,6 +15,7 @@
 }
 .the-header {
   display: flex;
+  justify-content: space-between;
   height: 53px; /* სრულად ეკრანის სიმაღლე */
   margin: 0 30px;
   padding: 0px 30px 0px 30px;

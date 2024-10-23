@@ -307,10 +307,9 @@
   .contact-info-left::after {
     right: 19.5%
   }
-}
+
 
 }
-@media screen and (max-width: 550px) {
   .each-slide {
     height: 194px;
   }

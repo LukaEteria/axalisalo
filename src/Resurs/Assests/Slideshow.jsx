@@ -1,5 +1,11 @@
-import React, { useState, useEffect } from 'react';
+
 import './Slideshow.css'; // Make sure to include your CSS file
+
+import React, { useState, useEffect } from 'react';
+import banner2 from '../../assets/banner-2.png';
+import biotolbuldeterjani from '../../assets/biotolbuldeterjani.png';
+import biotolhandgel from '../../assets/biotolhandgel.jpg';
+
 
 const Slideshow = () => {
     const [slides, setSlides] = useState([]);
@@ -7,13 +13,13 @@ const Slideshow = () => {
     const [autoplay, setAutoplay] = useState(true);
 
     useEffect(() => {
-        const fetchPhotos = async () => {
-            const response = await fetch('https://newsalooo.onrender.com/api/photos');
-            const data = await response.json();
-            setSlides(data);
-        };
-
-        fetchPhotos();
+        // Local images instead of API call
+        const localPhotos = [
+            { url: banner2 },
+            { url: biotolbuldeterjani },
+            { url: biotolhandgel }
+        ];
+        setSlides(localPhotos);
     }, []);
 
     const max = slides.length;
@@ -46,6 +52,8 @@ const Slideshow = () => {
 
     const renderArrows = () => (
         <>
+        
+
             <button className='arrows prev' onClick={() => setActive((active - 1 + max) % max)} disabled={max === 0}>
                 <svg fill='#FFFFFF' width='50' height='50' viewBox='0 0 24 24'>
                     <path d='M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z' />

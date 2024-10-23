@@ -8,6 +8,8 @@ import Blog from "./Resurs/Blog";
 import "./App.css";
 import Footer from "./Resurs/Footer";
 import HamburgerMenu from "./Resurs/Assests/HamburgerMenu";
+import ProductDetails from "./Resurs/Assests/ProductDetails";
+import SearchBar from "./Resurs/Assests/SearchBar";
 
 function App() {
   return (
@@ -19,8 +21,11 @@ function App() {
             <p>@ Salocompany@gmail.com</p>
           </div>
           <div className="contact-info-right"></div>
+          <SearchBar />
         </div>
-         <HamburgerMenu />
+
+        
+        <HamburgerMenu />
         <div className="header navigation logo">
           <div className="image-container">
             <a href="/">
@@ -39,7 +44,7 @@ function App() {
                 <Link to="/about-us">ჩვენს შესახებ</Link>
               </li>
               <li>
-                <Link to="/brands">ბრენდი</Link>
+                <Link to="/brands">პროდუქცია</Link>
               </li>
               <li>
                 <Link to="/team">პროდუქტები</Link>
@@ -57,6 +62,8 @@ function App() {
           <Route path="/brands" element={<Brands />} />
           <Route path="/team" element={<Team />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/product/:id" element={<ProductDetails />} />{" "}
+          {/* Keep this route for product details */}
         </Routes>
       </Router>
       <Footer />
