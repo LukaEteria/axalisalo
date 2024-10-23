@@ -1,7 +1,7 @@
 import "../App.css"; // თქვენი CSS სტილები
 import React from "react";
 import Slideshow from "./Assests/Slideshow"; // Slideshow კომპონენტის იმპორტი
-import Products from "./Assests/Products";
+import Products from "../assets/products";
 
 
 

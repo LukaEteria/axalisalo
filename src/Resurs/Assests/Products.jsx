@@ -2,7 +2,7 @@ import React from 'react';
 import './Products.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye } from '@fortawesome/free-regular-svg-icons';
-import products from '../../products'; // პროდუქციის ფაილი სწორად უნდა იყოს დაპათული
+import products from '../assets/products'; // პროდუქციის ფაილი სწორად უნდა იყოს დაპათული
 import { useNavigate } from 'react-router-dom'; // მარშრუტირების ფუნქცია
 
 export default function Products() {

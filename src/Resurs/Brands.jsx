@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import products from "../products";
+import products from "../assets/products";
 import "./brends.css";
 
 export default function Brands() {
